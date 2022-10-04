@@ -1,0 +1,8 @@
+/home/shekinah-b/Documents/springcloud/cloustream2/customer/src/main/java/com/appstream/CustomerApplication.java
+/home/shekinah-b/Documents/springcloud/cloustream2/customer/src/main/java/com/appstream/controller/CustomerController.java
+/home/shekinah-b/Documents/springcloud/cloustream2/customer/src/main/java/com/appstream/service/CustomerService.java
+/home/shekinah-b/Documents/springcloud/cloustream2/customer/src/main/java/com/appstream/repository/CustomerRepository.java
+/home/shekinah-b/Documents/springcloud/cloustream2/customer/src/main/java/com/appstream/configuration/DevPropertyConfiguration.java
+/home/shekinah-b/Documents/springcloud/cloustream2/customer/src/main/java/com/appstream/domain/CustomerRegistrationRequest.java
+/home/shekinah-b/Documents/springcloud/cloustream2/customer/src/main/java/com/appstream/configuration/ProdPropertyConfiguration.java
+/home/shekinah-b/Documents/springcloud/cloustream2/customer/src/main/java/com/appstream/domain/Customer.java

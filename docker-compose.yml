@@ -1,0 +1,43 @@
+
+services:
+  postgresDb:
+    container_name: postgres
+    image: postgres
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=Shekinah1994$$Gres
+      - POSTGRES_DB=customer2
+
+    ports:
+      - "5432:5432"
+  postgresDbFraud:
+    container_name: postgresFraud
+    image: postgres
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=Shekinah1994$$
+      - POSTGRES_DB=frauddb
+    ports:
+      - "5438:5432"
+
+  app:
+    container_name: cloud-stream-image
+    image: cloud-stream-image
+    build: ./
+    ports:
+      - "8088:8080"
+    depends_on:
+      - postgresDb
+
+  pgadmin:
+    container_name: pgadmin
+    image: dpage/pgadmin4
+    environment:
+      PGADMIN_DEFAULT_EMAIL: prodesinerlub@gmail.com
+      PGADMIN_DEFAULT_PASSWORD: Shekinah1994$$
+
+    ports:
+      - "5050:80"
+
+
+
