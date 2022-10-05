@@ -13,6 +13,7 @@
     <module>Client</module>
     <module>SecurityServer</module>
     <module>Fraud</module>
+    <module>eureka-server</module>
   </modules>
 
   <name>cloustream2</name>
@@ -24,7 +25,8 @@
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
     <version.spring.maven.plugin>2.5.7</version.spring.maven.plugin>
-    <version.spring.dependency.plugin>2.5.7</version.spring.dependency.plugin>
+    <version.spring.dependency>2.5.7</version.spring.dependency>
+    <versuin.spring.cloud>2020.0.3</versuin.spring.cloud>
   </properties>
 
   <dependencyManagement>
@@ -32,7 +34,14 @@
       <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-dependencies</artifactId>
-        <version>${version.spring.dependency.plugin}</version>
+        <version>${version.spring.dependency}</version>
+        <scope>import</scope>
+        <type>pom</type>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-dependencies</artifactId>
+        <version>${versuin.spring.cloud}</version>
         <scope>import</scope>
         <type>pom</type>
       </dependency>

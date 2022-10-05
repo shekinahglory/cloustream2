@@ -1,9 +1,0 @@
-com/appstream/domain/Customer.class
-com/appstream/domain/CustomerRegistrationRequest.class
-com/appstream/CustomerApplication.class
-com/appstream/domain/Customer$CustomerBuilder.class
-com/appstream/repository/CustomerRepository.class
-com/appstream/controller/CustomerController.class
-com/appstream/service/CustomerService.class
-com/appstream/configuration/ProdPropertyConfiguration.class
-com/appstream/configuration/DevPropertyConfiguration.class

@@ -10,6 +10,7 @@
         <module name="SecurityServer" />
         <module name="Fraud" />
         <module name="Client" />
+        <module name="eureka-server" />
         <module name="customer" />
       </profile>
     </annotationProcessing>
